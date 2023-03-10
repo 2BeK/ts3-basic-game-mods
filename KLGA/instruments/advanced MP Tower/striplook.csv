@@ -9,60 +9,36 @@ Stripblock=Time,Callsign,BTN","Header=ARRIVAL 04/22
 HeaderBG=191,152,133
 TextColor=255,255,255
 Runway=04,22
-Next=TAXI TO TERMINAL
+Next=HANDOVER TO GROUND
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=ARRIVAL 13/31
 HeaderBG=191,152,133
 TextColor=255,255,255
 Runway=13,31
-Next=TAXI TO TERMINAL
+Next=HANDOVER TO GROUND
 Size=50%
-Stripblock=Time,ARB,Callsign,BTN","Header=WAIT FOR TAXI
+Stripblock=Time,ARB,Callsign,BTN","Header=HANDOVER TO GROUND
 HeaderBG=191,152,133
 TextColor=255,255,255
 Runway=04,22,13,31
-Next=TAXI TO TERMINAL
+Next=BIN
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=BIN
 HeaderBG=60,60,60
 TextColor=255,255,255
 Size=100%
 Stripblock=Time,Callsign"
-"Header=RDY TO PUSHBACK
+"Header=HANDOVER FROM GROUND
 Type=DepartureStart
 HeaderBG=114,144,169
 TextColor=255,255,255
-Next=PUSHBACK
-Size=50%
-Stripblock=Time,ARB,Callsign,BTN","Header=TAXI 04/22
-HeaderBG=114,144,169
-TextColor=255,255,255
-Runway=04,22
-Next=LINE UP 04/22
+Next=LINE UP 04/22,LINE UP 13/31
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=LINE UP 04/22
 HeaderBG=114,144,169
 TextColor=255,255,255
 Runway=04,22
 Next=DEPARTING
-Size=50%
-Stripblock=Time,ARB,Callsign,BTN","Header=TAXI TO TERMINAL
-HeaderBG=191,152,133
-TextColor=255,255,255
-Runway=04,22,13,31
-Next=BIN
-Size=50%
-Stripblock=Time,ARB,Callsign,BTN"
-"Header=PUSHBACK
-HeaderBG=114,144,169
-TextColor=255,255,255
-Next=TAXI 04/22,TAXI 13/31
-Size=50%
-Stripblock=Time,ARB,Callsign,BTN","Header=TAXI 13/31
-HeaderBG=114,144,169
-TextColor=255,255,255
-Runway=13,31
-Next=LINE UP 13/31
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=LINE UP 13/31
 HeaderBG=114,144,169
