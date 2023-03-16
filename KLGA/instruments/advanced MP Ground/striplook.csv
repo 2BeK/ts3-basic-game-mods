@@ -2,11 +2,13 @@
 "Header=RDY TO PUSHBACK
 Type=DepartureStart
 HeaderBG=114,144,169
+BGColor=80,80,80
 TextColor=255,255,255
 Next=PUSHBACK
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=TAXI 04/22
 HeaderBG=114,144,169
+BGColor=80,80,80
 TextColor=255,255,255
 Runway=04,22
 Next=BIN
@@ -14,39 +16,44 @@ Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=HANDOVER FROM TOWER
 Type=ArrivalStart
 HeaderBG=191,152,133
+BGColor=80,80,80
 TextColor=255,255,255
 Runway=04,22,13,31
 Next=TAXI TO TERMINAL
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=BIN
 HeaderBG=60,60,60
+BGColor=80,80,80
 TextColor=255,255,255
 Size=100%
 Stripblock=Time,Callsign"
 "Header=PUSHBACK
 HeaderBG=114,144,169
+BGColor=80,80,80
 TextColor=255,255,255
 Next=TAXI 04/22,TAXI 13/31
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=TAXI 13/31
 HeaderBG=114,144,169
+BGColor=80,80,80
 TextColor=255,255,255
 Runway=13,31
 Next=BIN
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN","Header=TAXI TO TERMINAL
 HeaderBG=191,152,133
+BGColor=80,80,80
 TextColor=255,255,255
 Next=BIN
 Size=50%
 Stripblock=Time,ARB,Callsign,BTN",
 ,,,,
 "Colors
-BGColor=210,210,210
-BGArrival=191,152,133
-BGDeparture=114,144,169
-BGGAArrival=191,152,133
-BGGADeparture=114,144,169
+BGColor=100,100,100
+BGArrival=100,100,100
+BGDeparture=100,100,100
+BGGAArrival=100,100,100
+BGGADeparture=100,100,100
 TextBGArrival=191,152,133
 TextBGDeparture=114,144,169
 TextBGGAArrival=191,152,133
@@ -55,5 +62,5 @@ TextArrival=0,0,0
 TextDeparture=0,0,0
 TextGAArrival=0,0,0
 TextGADeparture=0,0,0
-GridColor=80,80,80
+GridColor=100,100,100
 ",,,,
