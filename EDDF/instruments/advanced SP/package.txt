@@ -1,0 +1,2 @@
+NAME: EDDF instruments by 2BeK
+DESCRIPTION: Small description text\nWith <b>special</b> tags and <color=#ff8888>colors</color>\n\n<b><color=#1111ff>Developer: Feelthere Inc.</color></b>

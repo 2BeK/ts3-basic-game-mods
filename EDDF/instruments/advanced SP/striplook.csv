@@ -1,0 +1,93 @@
+Width=20%,Width=20%,Width=20%,Width=20%,Width=20%,Width=15%
+"Header=TWR ARR (PENDING)
+Type=ArrivalStart
+HeaderBG=60,60,60
+TextColor=255,255,255
+BGColor=210,210,210				
+Size=50%
+Next=ARRIVAL 07L/25R,ARRIVAL 07C/25C 07R/25L,ARRIVAL 18/36
+Stripblock=Time,Callsign,BTN","Header=ARRIVAL 07L/25R
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Runway=07L,25R
+Next=GND
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=ARRIVAL 07C/25C 07R/25L
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Runway=07C,25C,07R,25L
+Next=GND
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=ARRIVAL 18/36
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Runway=07C,25C,07R,25L
+Next=GND
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=GND
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Next=BIN
+Type=Arrival
+Size=50%
+Stripblock=Callsign,BIN","Header=BIN
+HeaderBG=60,60,60
+TextColor=255,255,255
+Size=100%
+Stripblock=Time,Callsign"
+"Header=GND DEP (PENDING)
+Type=DepartureStart
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Size=50%
+Next=DEPARTURE 07L/25R,DEPARTURE 07C/25C 07R/25L,DEPARTURE 18/36
+Stripblock=Time,Callsign,BTN","Header=DEPARTURE 07L/25R
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Runway=07L,25R
+Next=DEP 
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=DEPARTURE 07C/25C 07R/25L
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Runway=07C,25C,07R,25L
+Next=DEP
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=DEPARTURE 18/36
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Runway=07C,25C,07R,25L
+Next=DEP
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=DEP
+HeaderBG=60,60,60
+BGColor=210,210,210				
+TextColor=255,255,255
+Next=BIN
+Size=50%
+Stripblock=Callsign,BIN",
+,,,,,
+"Colors
+BGColor=210,210,210
+BGArrival=191,152,133
+BGDeparture=114,144,169
+BGGAArrival=191,152,133
+BGGADeparture=114,144,169
+TextBGArrival=191,152,133
+TextBGDeparture=114,144,169
+TextBGGAArrival=191,152,133
+TextBGGADeparture=114,144,169
+TextArrival=0,0,0
+TextDeparture=0,0,0
+TextGAArrival=0,0,0
+TextGADeparture=0,0,0
+GridColor=80,80,80
+",,,,,

@@ -1,0 +1,33 @@
+Background color,"25,25,25,255"
+Rotation,3
+Road area color,"9,26,46,255"
+Road area thickness,0
+Road outline color,"255,50,50,255"
+Road outline thickness,0
+Taxiway color,"100,100,100,255"
+Taxiway thickness,8
+Runway color,"160,160,160,255"
+Runway thickness,20
+Terminal color,"255,255,255,255"
+Terminal thickness,10
+Road text background color,"50,50,50"
+Road text color,"255,255,255"
+Road text size,30
+Road text distance,300
+Road selected color,"255,255,0,255"
+Road selected runway,"255,60,60,255"
+Route color,"0,200,0,255"
+Route thickness,4
+Eye color,"255,255,255,255"
+Eye width,5
+Eye length,0
+Airplane size,15
+Airplane text size,20
+Airplane color arrive,"255,155,55,255"
+Airplane color departure,"55,155,255,255"
+Airplane color callsign arrive,"255,155,55,255"
+Airplane color callsign departure,"155,155,255,255"
+Airplane selected color arrive,"255,0,0,255"
+Airplane selected color departure,"255,0,0,255"
+Airplane selected color callsign arrive,"255,155,155,255"
+Airplane selected color callsign departure,"155,155,255,255"
