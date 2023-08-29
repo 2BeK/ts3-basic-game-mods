@@ -1,0 +1,24 @@
+Background color,"10,10,10,255"
+Ring color,"150,150,150,150"
+Ring thickness,20
+ILS color,"255,100,100,150"
+ILS thickness,25
+Airport color,"200,200,50,200"
+Airport thickness,30
+Airport runway color,"255,0,0,255"
+Airport runway thickness,60
+Airplane size,35
+Airplane color arrive,"255,255,255,255"
+Airplane color departure,"255,255,255,255"
+Airplane color callsign arrive,"255,255,0,255"
+Airplane color callsign departure,"255,255,0,255"
+Airplane color info arrive,"255,255,0,255"
+Airplane color info departure,"200,200,200,200"
+Airplane color out of control,"255,255,255,100"
+Airplane selected color arrive,"255,255,55,255"
+Airplane selected color departure,"255,255,55,255"
+Airplane selected color callsign arrive,"255,255,0,255"
+Airplane selected color callsign departure,"255,255,0,255"
+Airplane selected color info arrive,"255,255,0,255"
+Airplane selected color info departure,"200,200,200,200"
+Airplane marker type,Old style/dotted

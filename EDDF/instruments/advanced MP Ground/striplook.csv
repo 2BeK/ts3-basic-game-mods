@@ -1,0 +1,82 @@
+Width=25%,Width=25%,Width=25%,Width=25%,Width=15%
+"Header=READY TO PUSHBACK
+Type=DepartureStart
+HeaderBG=114,144,169
+BGColor=80,80,80
+TextColor=255,255,255
+Size=50%
+Next=PUSHBACK
+Stripblock=Time,Callsign,BTN","Header=PUSHBACK
+HeaderBG=114,144,169
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=07L,25R
+Next=TAXI 07L/25R,TAXI 07C/25C,TAXI 07R/25L,TAXI 18
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=HANDOVER FROM TOWER
+Type=ArrivalStart
+HeaderBG=191,152,133
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=07C,25C
+Next=TAXI TO TERMINAL
+Size=50%
+Stripblock=Time,ARB,Callsign,BTN","Header=TAXI TO TERMINAL
+HeaderBG=191,152,133
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=07R,25L
+Next=BIN
+Size=50%
+Stripblock=Time,ARB,Callsign,BIN","Header=BIN
+HeaderBG=60,60,60
+BGColor=80,80,80
+TextColor=255,255,255
+Size=100%
+Stripblock=Time,Callsign"
+"Header=TAXI 07L/25R
+HeaderBG=114,144,169
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=07L,25R
+Next=BIN
+Size=50%
+Stripblock=Time,ARB,Callsign,BIN","Header=TAXI 07C/25C
+HeaderBG=114,144,169
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=07C,25C
+Next=BIN
+Size=50%
+Stripblock=Time,ARB,Callsign,BIN","Header=TAXI 07R/25L
+HeaderBG=114,144,169
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=07R,25L
+Next=BIN
+Size=50%
+Stripblock=Time,ARB,Callsign,BIN","Header=TAXI 18
+HeaderBG=114,144,169
+BGColor=80,80,80
+TextColor=255,255,255
+Runway=18
+Next=BIN
+Size=50%
+Stripblock=Time,ARB,Callsign,BIN",
+,,,,
+"Colors
+BGColor=100,100,100
+BGArrival=100,100,100
+BGDeparture=100,100,100
+BGGAArrival=100,100,100
+BGGADeparture=100,100,100
+TextBGArrival=191,152,133
+TextBGDeparture=114,144,169
+TextBGGAArrival=191,152,133
+TextBGGADeparture=114,144,169
+TextArrival=0,0,0
+TextDeparture=0,0,0
+TextGAArrival=0,0,0
+TextGADeparture=0,0,0
+GridColor=100,100,100
+",,,,
